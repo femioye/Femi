@@ -1,8 +1,17 @@
+/*
+primary: #ff4081;
+p-light: #ff79b0;
+p-dark: ##c60055;
+secondary:#e676e6;
+s-light: #66ffa6
+s-dark:#00b248
+*/
 body {
-    background-color: #ddd4d4;
-    color: #010101;;
+    background-color: black;
+    color: #010101;
+
 }
-.halfer{
-    float: left;
-    width: 49%;
+h1, 
+h2{
+    font-family: 'Lato', sans-serif;
 }
