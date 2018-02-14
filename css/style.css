@@ -1,17 +1,29 @@
-/*
-primary: #ff4081;
-p-light: #ff79b0;
-p-dark: ##c60055;
-secondary:#e676e6;
-s-light: #66ffa6
-s-dark:#00b248
-*/
+/* Global Styles*/
 body {
-    background-color: black;
-    color: #010101;
-
+  background-color: #66ffa6;
 }
-h1, 
-h2{
-    font-family: 'Lato', sans-serif;
+h1,
+h2 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+h1 {
+  font-size: 48px;
+}
+li {
+  display: inline-block;
+}
+a {
+  font-size: 36px;
+}
+/* Header Styles */
+header li {
+  margin: 0 10px;
+}
+header li:first-of-type {
+  margin-left: 0;
+}
+/* Footer Styles */
+footer a {
+  font-size: 64px;
 }

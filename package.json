@@ -1,0 +1,29 @@
+{
+  "name": "femi",
+  "version": "1.0.0",
+  "description": "A Taco Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/femioye/Femi.git"
+  },
+  "keywords": [
+    "tacos",
+    "gulp"
+  ],
+  "author": "femi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/femioye/Femi/issues"
+  },
+  "homepage": "https://github.com/femioye/Femi#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-less": "^3.5.0"
+  }
+}
