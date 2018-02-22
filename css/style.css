@@ -1,6 +1,6 @@
 /* Global Styles*/
 body {
-  background-color: #66ffa6;
+  background-color: orange;
 }
 h1,
 h2 {
@@ -15,13 +15,52 @@ li {
 }
 a {
   font-size: 36px;
+  color: #00b248;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+label {
+  color: black;
 }
 /* Header Styles */
+header {
+  background-image: url('../image/header-photo.jpeg');
+  height: 300px;
+  background-size: cover;
+}
+header h1 {
+  margin: 0px;
+}
 header li {
   margin: 0 10px;
 }
 header li:first-of-type {
   margin-left: 0;
+}
+.transparent {
+  position: relative;
+  width: 80%;
+  height: 200%;
+  margin: 50% auto;
+  background-color: black;
+  opacity: .6;
+  border-radius: 0 0 10px 10px;
+}
+/* main */
+figure {
+  margin: auto;
+}
+figure img {
+  margin: 7px;
+}
+figcaption {
+  position: relative;
+  margin-top: -70px;
+  color: #00b248;
+  font-size: 50px;
+  text-align: center;
 }
 /* Footer Styles */
 footer a {
